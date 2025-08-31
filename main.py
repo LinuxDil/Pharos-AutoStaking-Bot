@@ -508,7 +508,7 @@ class AutoStaking:
                 f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
                 f"{Fore.BLUE + Style.BRIGHT}Wait For{Style.RESET_ALL}"
                 f"{Fore.WHITE + Style.BRIGHT} {remaining} {Style.RESET_ALL}"
-                f"{Fore.BLUE + Style.BRIGHT}Seconds For Next Tx...{Style.RESET_ALL}",
+                f"{Fore.BLUE + Style.BRIGHT}Seconds For Next Tx... join our Discord: https://discord.gg/j8jZ5sBp7Y for Givveaway{Style.RESET_ALL}",
                 end="\r",
                 flush=True
             )
