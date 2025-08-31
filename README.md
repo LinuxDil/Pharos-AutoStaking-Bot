@@ -4,7 +4,7 @@ Pharos AutoStaking Bot auto staking from pharos
 | Fitur                           | Penjelasan                                                               |
 | ------------------------------- | ------------------------------------------------------------------------ |
 | ✅ Multi-wallet                  | Dapat menangani banyak wallet dalam satu file `accounts.txt`          |
-| ✅ Generate & Register Domain    | Auto Staking Token                                           |
+| ✅ Features    | Auto Staking Token                                           |
 | ✅ Delay acak transaksi          | Menghindari pola bot yang jelas terlihat                                 |
 | ✅ Estimasi & cek saldo otomatis | Tidak akan register jika saldo token tidak cukup                         |
 | ✅ Retry otomatis jika gagal     | Menangani error koneksi dengan retry                                     |
