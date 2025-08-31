@@ -11,8 +11,6 @@ from datetime import datetime
 from base64 import b64encode
 from colorama import *
 import asyncio, random, time, json, re, os, pytz
-from pyfiglet import Figlet
-import shutil
 
 wib = pytz.timezone('Asia/Jakarta')
 
@@ -87,14 +85,14 @@ class AutoStaking:
         )
 
     def welcome(self):
-        figlet = Figlet(font='ansi_shadow')
-        banner_lines = figlet.renderText('BG WIN').splitlines()
-        term_width = shutil.get_terminal_size().columns
-
-        for line in banner_lines:
-            print(Fore.GREEN + Style.BRIGHT + line.center(term_width) + Style.RESET_ALL
+        print(
+            f"""
+        {Fore.GREEN + Style.BRIGHT}AutoStaking{Fore.BLUE + Style.BRIGHT} Auto BOT
+            """
+            f"""
+        {Fore.GREEN + Style.BRIGHT}Rey? {Fore.YELLOW + Style.BRIGHT}<INI WATERMARK>
+            """
         )
-
 
     def format_seconds(self, seconds):
         hours, remainder = divmod(seconds, 3600)
@@ -989,7 +987,7 @@ class AutoStaking:
                         f"{Fore.WHITE+Style.BRIGHT} {formatted_time} {Style.RESET_ALL}"
                         f"{Fore.CYAN+Style.BRIGHT}... ]{Style.RESET_ALL}"
                         f"{Fore.WHITE+Style.BRIGHT} | {Style.RESET_ALL}"
-                        f"{Fore.BLUE+Style.BRIGHT}All Accounts Have Been Processed.  join our Discord: https://discord.gg/j8jZ5sBp7Y for Givveaway{Style.RESET_ALL}",
+                        f"{Fore.BLUE+Style.BRIGHT}All Accounts Have Been Processed.{Style.RESET_ALL}",
                         end="\r"
                     )
                     await asyncio.sleep(1)
