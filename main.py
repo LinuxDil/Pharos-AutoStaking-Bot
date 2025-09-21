@@ -11,6 +11,8 @@ from datetime import datetime
 from base64 import b64encode
 from colorama import *
 import asyncio, random, time, json, re, os, pytz
+from pyfiglet import Figlet
+import shutil
 
 wib = pytz.timezone('Asia/Jakarta')
 
